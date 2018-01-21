@@ -201,7 +201,7 @@
   - 在Debug窗口找到有个光标图标 run to cursor(ctrl+R)
 - setValue★
   - 在debug中只要选中要设置的变量按下F2设定想要设定的值即可。
-#### 任一处运行
+#### 7.2 任一处运行
   - 运行当前上下文
     - findaction&rarr;debug context 就会运行光标就近处的方法
     - 注：如果光标在中间 那么两个都会运行
