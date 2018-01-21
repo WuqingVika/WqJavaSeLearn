@@ -7,4 +7,8 @@ public class C {
     public void fc(){
         System.out.println("wq--C");
     }
+
+    public static void main(String[] args) {
+
+    }
 }
