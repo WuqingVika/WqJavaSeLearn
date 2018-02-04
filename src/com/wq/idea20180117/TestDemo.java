@@ -1,4 +1,4 @@
-package com.wq.idea;
+package com.wq.idea20180117;
 
 import org.junit.Test;
 
