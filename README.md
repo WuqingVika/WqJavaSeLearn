@@ -1,4 +1,4 @@
-## Idea常用技巧总结
+## 一、Idea常用技巧总结
 
 ### 1.无处不在的跳转
 >注：这里的快捷键是自己定义的，并非大家的都一样，可以通过findAction查找相应的快捷键。
@@ -232,3 +232,39 @@
         - findaction&rarr;call hierarchy(ctrl+alt+H)            
 ##致谢
 > 此总结源自慕课网视频教程,感谢老师@闪电侠，受益匪浅！     
+
+## 二、序列化与反序列化
+
+### 1.Serializable
+- 类实现 Serializable 
+- 保存数据到本地磁盘
+    ```java
+        ObjectOutputStream oos= new ObjectOutputStream(new FileOutputStream("D:/test/wuqingvika0204.dat"));
+        oos.writeObject(person);
+        oos.close();
+    ```
+- 从本地加载并读取
+    ```java
+       ObjectInputStream ois=new ObjectInputStream(new FileInputStream("D:/test/wuqingvika0204.dat"));
+       Person person=(Person)ois.readObject();
+       ois.close();
+       return person;
+    ```
+### 2.Externalizable   
+- 类实现 Externalizable
+- 需要实现两个方法：
+    ```java
+       @Override
+           public void writeExternal(ObjectOutput out) throws IOException {
+               out.writeObject(this.getName());
+               out.writeInt(this.getAge());
+           }
+       
+           @Override
+           public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+               this.setName((String)in.readObject());//这里位置不能颠倒
+               this.setAge( in.readInt());
+           }
+    ```
+- 其余序列化到本地磁盘和加载数据同上。
+- 这里说下我遇到的坑：读取时候需要与写入字段顺序位置一致。不然报错。    
