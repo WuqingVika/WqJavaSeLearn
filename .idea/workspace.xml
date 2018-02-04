@@ -8,10 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8e38682-d91d-403e-b54f-f4609c890639" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/wq/filetest/FileBasic.java" afterPath="$PROJECT_DIR$/src/com/wq/filetest20171223/FileBasic.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/wq/filetest/FileInputStreamDemo01.java" afterPath="$PROJECT_DIR$/src/com/wq/filetest20171223/FileInputStreamDemo01.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/wq/filetest/FileInputStreamDemo02.java" afterPath="$PROJECT_DIR$/src/com/wq/filetest20171223/FileInputStreamDemo02.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/wq/filetest/FileList.java" afterPath="$PROJECT_DIR$/src/com/wq/filetest20171223/FileList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/wq/zxing/BufferedImageLuminanceSource.java" afterPath="$PROJECT_DIR$/src/com/wq/zxing20171226/BufferedImageLuminanceSource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/wq/zxing/QRCodeUtil.java" afterPath="$PROJECT_DIR$/src/com/wq/zxing20171226/QRCodeUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/wq/zxing/ReadZxingQrCode.java" afterPath="$PROJECT_DIR$/src/com/wq/zxing20171226/ReadZxingQrCode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/wq/zxing/ZxingCode.java" afterPath="$PROJECT_DIR$/src/com/wq/zxing20171226/ZxingCode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +40,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -51,6 +51,16 @@
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QRCodeUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/QRCodeUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/com/wq/serializable/User.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/wq/idea20180117/A.java" />
+        <option value="$PROJECT_DIR$/src/com/wq/zxing20171226/QRCodeUtil.java" />
       </list>
     </option>
   </component>
@@ -202,7 +213,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zxing" />
+              <option name="myItemId" value="zxing20171226" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -773,7 +784,7 @@
       <workItem from="1516200724507" duration="508000" />
       <workItem from="1516451683131" duration="5581000" />
       <workItem from="1516506067005" duration="26415000" />
-      <workItem from="1517750336560" duration="4695000" />
+      <workItem from="1517750336560" duration="4764000" />
     </task>
     <servers />
   </component>
@@ -786,7 +797,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60611000" />
+    <option name="totallyTimeSpent" value="60680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -908,7 +919,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/ZxingCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/ZxingCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
@@ -929,21 +940,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/ReadZxingQrCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/ReadZxingQrCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/BufferedImageLuminanceSource.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/BufferedImageLuminanceSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2500">
           <caret line="100" column="8" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/QRCodeUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/QRCodeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4450">
           <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
@@ -957,7 +968,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/ZxingCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/ZxingCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
@@ -978,21 +989,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/ReadZxingQrCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/ReadZxingQrCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/BufferedImageLuminanceSource.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/BufferedImageLuminanceSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2250">
           <caret line="100" column="8" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/QRCodeUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/QRCodeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3875">
           <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
@@ -1006,28 +1017,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/ZxingCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/ZxingCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/ReadZxingQrCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/ReadZxingQrCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/BufferedImageLuminanceSource.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/BufferedImageLuminanceSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2500">
           <caret line="100" column="8" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/QRCodeUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/QRCodeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3950">
           <caret line="181" column="39" lean-forward="false" selection-start-line="181" selection-start-column="39" selection-end-line="181" selection-end-column="39" />
@@ -1055,21 +1066,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/ReadZxingQrCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/ReadZxingQrCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/QRCodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3875">
-          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/ZxingCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/ZxingCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
@@ -1091,13 +1095,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wq/idea.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing/BufferedImageLuminanceSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="100" column="8" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1331,6 +1328,22 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/BufferedImageLuminanceSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="100" column="8" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wq/zxing20171226/QRCodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

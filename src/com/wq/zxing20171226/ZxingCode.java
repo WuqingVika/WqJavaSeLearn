@@ -1,4 +1,4 @@
-package com.wq.zxing;
+package com.wq.zxing20171226;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;

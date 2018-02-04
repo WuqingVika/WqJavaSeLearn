@@ -1,4 +1,4 @@
-package com.wq.zxing;
+package com.wq.zxing20171226;
 
 /**
  * Created by wuqingvika on 2017/12/26.
