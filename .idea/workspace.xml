@@ -41,10 +41,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="148">
-                <caret line="269" column="35" lean-forward="false" selection-start-line="269" selection-start-column="35" selection-end-line="269" selection-end-column="35" />
+              <first_editor relative-caret-position="112">
+                <caret line="253" column="49" lean-forward="false" selection-start-line="253" selection-start-column="49" selection-end-line="253" selection-end-column="49" />
                 <folding>
-                  <marker date="1517754347240" expanded="true" signature="2821:2853" ph="/.../" />
+                  <marker date="1517754532501" expanded="true" signature="2821:2853" ph="/.../" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -803,7 +803,7 @@
       <workItem from="1516200724507" duration="508000" />
       <workItem from="1516451683131" duration="5581000" />
       <workItem from="1516506067005" duration="26415000" />
-      <workItem from="1517750336560" duration="4003000" />
+      <workItem from="1517750336560" duration="4186000" />
     </task>
     <servers />
   </component>
@@ -816,7 +816,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59919000" />
+    <option name="totallyTimeSpent" value="60102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1322,14 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wq/serializable20180204/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wq/serializable20180204/TestSerializable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1350,13 +1342,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wq/serializable20180204/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="148">
-            <caret line="269" column="35" lean-forward="false" selection-start-line="269" selection-start-column="35" selection-end-line="269" selection-end-column="35" />
+          <first_editor relative-caret-position="112">
+            <caret line="253" column="49" lean-forward="false" selection-start-line="253" selection-start-column="49" selection-end-line="253" selection-end-column="49" />
             <folding>
-              <marker date="1517754347240" expanded="true" signature="2821:2853" ph="/.../" />
+              <marker date="1517754532501" expanded="true" signature="2821:2853" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
