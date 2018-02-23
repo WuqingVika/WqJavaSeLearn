@@ -288,3 +288,30 @@
 - 正常曲线：新建&rarr;就绪&rarr;运行&rarr;死亡
 - 非正常：运行&rarr;堵塞&rarr;就绪&rarr;运行
 
+### 5.抢占式(多)、设置优先级、后台线程学习
+- [抢占式学习、设置优先级](https://github.com/WuqingVika/WqJavaSeLearn/blob/master/src/com/wq/thread20180204/Demo04BackThread.java)
+（在线程启动前设定）
+  - wq4.setPriority(Thread.MAX_PRIORITY);//设置最高优先级
+  - wq1.setPriority(Thread.MIN_PRIORITY);//最低
+- [设置为后台线程](https://github.com/WuqingVika/WqJavaSeLearn/blob/master/src/com/wq/thread20180204/Demo04BackThread.java)
+  - wq1.setDaemon(true);
+- 为线程设置名称
+  - wq.setName("b");
+  
+### 6.线程让步
+- [yield()](https://github.com/WuqingVika/WqJavaSeLearn/blob/master/src/com/wq/thread20180204/Demo05Yield.java)
+  -  要想线程让步：（必须满足下面两个条件）
+     -  1.存在另外的线程优先级大于等于我
+     -  2.另外的线程处于就绪状态
+### 7.参与
+- [join()](https://github.com/WuqingVika/WqJavaSeLearn/blob/master/src/com/wq/thread20180204/JoinThread.java)
+   - join线程 让其他进程参与 自己处于堵塞状态 直到其他结束再执行
+### 8.线程同步
+- [synchronized](https://github.com/WuqingVika/WqJavaSeLearn/blob/master/src/com/wq/thread20180204/Demo07Synchronize.java)
+  - public synchronized void run() {}//1.同步方法
+  - synchronized (this){}//2.同步代码块
+- 释放锁（持有锁的线程在以下情况会释放锁：）
+  -  1.执行完同步代码块
+  -  2.执行同步代码块的过程中，遇到异常而导致线程终止
+  -  3.在执行同步代码块的过程中，执行了锁所属对象的wait()方法
+  - ★执行sleep()和yield()都不会释放锁
