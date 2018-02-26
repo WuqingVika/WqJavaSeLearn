@@ -315,3 +315,12 @@
   -  2.执行同步代码块的过程中，遇到异常而导致线程终止
   -  3.在执行同步代码块的过程中，执行了锁所属对象的wait()方法
   - ★执行sleep()和yield()都不会释放锁
+
+### 9.线程通信
+[代码](https://github.com/WuqingVika/WqJavaSeLearn/blob/master/src/com/wq/thread20180204/Demo08Connect.java)
+- wait()
+   - 执行该方法的线程释放对象的锁，Java虚拟机把该线程放到该对象的等待池中。该线程将等待其他线程将其唤醒。
+- notify()
+   - 执行该方法的线程唤醒在对象的等待池中等待的一个线程。Java虚拟机从对象等待池中随机选择一个线程，把它转到对象的锁池中。
+- notifyAll()
+  - Object类还有一个notifyAll()方法，该方法将会唤醒所有在这个对象锁池中的所有线程。
