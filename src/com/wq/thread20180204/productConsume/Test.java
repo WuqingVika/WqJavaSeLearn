@@ -8,5 +8,7 @@ public class Test {
         Container container=new Container();
         Producer producer=new Producer("武大郎",container);
         Producer producer2=new Producer("武大郎2",container);
+        new Consumer("潘金莲",container);
+        new Consumer("武松",container);
     }
 }

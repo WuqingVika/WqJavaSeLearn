@@ -324,3 +324,10 @@
    - 执行该方法的线程唤醒在对象的等待池中等待的一个线程。Java虚拟机从对象等待池中随机选择一个线程，把它转到对象的锁池中。
 - notifyAll()
   - Object类还有一个notifyAll()方法，该方法将会唤醒所有在这个对象锁池中的所有线程。
+
+
+### 10.生产者消费者案例
+- [Container](https://github.com/WuqingVika/WqJavaSeLearn/blob/master/src/com/wq/thread20180204/productConsume/Container.java)(容器)
+  - 主要包含push(生产)、pop(消费)方法。
+- [Producer](https://github.com/WuqingVika/WqJavaSeLearn/blob/master/src/com/wq/thread20180204/productConsume/Producer.java)(生产者)
+- [Consumer](https://github.com/WuqingVika/WqJavaSeLearn/blob/master/src/com/wq/thread20180204/productConsume/Consumer.java)(消费者)

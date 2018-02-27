@@ -25,4 +25,19 @@ public class Container {
 
     }
 
+    public synchronized void pop(){
+        this.notifyAll();
+        String name=Thread.currentThread().getName();//当前线程的名称
+        while(count<=0){
+            //假设容器默认容量为10
+            try {
+                System.out.println(name + " \t馒头不够吃咯");
+                this.wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println(name + "\t消费馒头" + count);
+        count--;
+    }
 }
