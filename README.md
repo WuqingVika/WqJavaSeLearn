@@ -230,7 +230,7 @@
         - findaction&rarr;hierarchy actions&rarr;hierarchy(alt+8)
     - 方法调用层次★
         - findaction&rarr;call hierarchy(ctrl+alt+H)            
-##致谢
+## 致谢
 > 此总结源自慕课网视频教程,感谢老师@闪电侠，受益匪浅！     
 
 ## 二、序列化与反序列化

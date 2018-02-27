@@ -8,11 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8e38682-d91d-403e-b54f-f4609c890639" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wq/thread20180204/productConsume/Consumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wq/thread20180204/productConsume/Container.java" afterPath="$PROJECT_DIR$/src/com/wq/thread20180204/productConsume/Container.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wq/thread20180204/productConsume/Test.java" afterPath="$PROJECT_DIR$/src/com/wq/thread20180204/productConsume/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,10 +41,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="290">
-                <caret line="332" column="7" lean-forward="true" selection-start-line="332" selection-start-column="7" selection-end-line="332" selection-end-column="7" />
+              <first_editor relative-caret-position="139">
+                <caret line="232" column="3" lean-forward="false" selection-start-line="232" selection-start-column="3" selection-end-line="232" selection-end-column="3" />
                 <folding>
-                  <marker date="1519738101996" expanded="true" signature="2821:2853" ph="/.../" />
+                  <marker date="1519738372635" expanded="true" signature="2821:2853" ph="/.../" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -111,6 +107,7 @@
     <findStrings>
       <find>w</find>
       <find>wq</find>
+      <find>致谢</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -864,7 +861,7 @@
       <workItem from="1519288496735" duration="9478000" />
       <workItem from="1519350360937" duration="5759000" />
       <workItem from="1519646756134" duration="6177000" />
-      <workItem from="1519735967804" duration="2106000" />
+      <workItem from="1519735967804" duration="2376000" />
     </task>
     <servers />
   </component>
@@ -877,7 +874,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89110000" />
+    <option name="totallyTimeSpent" value="89380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="735" extended-state="0" />
@@ -1407,10 +1404,10 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="332" column="7" lean-forward="true" selection-start-line="332" selection-start-column="7" selection-end-line="332" selection-end-column="7" />
+          <first_editor relative-caret-position="139">
+            <caret line="232" column="3" lean-forward="false" selection-start-line="232" selection-start-column="3" selection-end-line="232" selection-end-column="3" />
             <folding>
-              <marker date="1519738101996" expanded="true" signature="2821:2853" ph="/.../" />
+              <marker date="1519738372635" expanded="true" signature="2821:2853" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
